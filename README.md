@@ -46,4 +46,4 @@ Este repositório está licenciado sob a Licença MIT. Consulte o arquivo [LICEN
 
 ---
 
-Sinta-se à vontade para personalizar esta documentação de acordo com o seu projeto e adicionar informações adicionais, como créditos, agradecimentos ou seções específicas que considerar importantes. Certifique-se de incluir uma imagem ou logotipo relacionado ao CSS no início da documentação para torná-la mais visualmente atraente.
+
