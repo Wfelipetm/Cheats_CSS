@@ -1,6 +1,9 @@
 # Cheats_CSS
 
-![CSS Logo](link_para_imagem)
+<div style="display: inline_block"><br>
+  <img align="center" alt="icon-css" height="30" width="60" src="URL_DA_IMAGEM_CSS">
+</div>
+
 
 Este repositório contém um arquivo CSS abrangente com exemplos e referências de estilização em CSS. É um guia completo que abrange desde conceitos básicos até recursos avançados do CSS. Use este recurso como um guia de referência e aprendizado para aprimorar suas habilidades de design front-end.
 
