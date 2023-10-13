@@ -1,25 +1,26 @@
-/* Exemplos CSS3 Avançados */
-
 /* Seletores CSS */
 
-/* Seletor de classe */
-.classe {
-    /* Estilos aqui */
+/* Seletor de classe: Estilize elementos com a classe "destaque" */
+.destaque {
+    font-weight: bold;
+    color: #007acc;
 }
 
-/* Seletor de ID */
-#id {
-    /* Estilos aqui */
+/* Seletor de ID: Estilize o elemento com o ID "cabecalho" */
+#cabecalho {
+    background-color: #f0f0f0;
+    text-align: center;
 }
 
-/* Seletor de tipo */
+/* Seletor de tipo: Estilize todos os cabeçalhos h1 */
 h1 {
-    /* Estilos aqui */
+    font-size: 24px;
 }
 
-/* Seletor de filho */
+/* Seletor de filho: Estilize os parágrafos dentro de uma div */
 div p {
-    /* Estilos aqui */
+    margin: 10px;
+    padding: 5px;
 }
 
 /* Cores e Fundo */
@@ -33,6 +34,7 @@ body {
 h1 {
     color: #007acc;
 }
+
 
 /* Box Model */
 
