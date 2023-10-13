@@ -2,37 +2,37 @@
 
 /* Seletor de classe: Estilize elementos com a classe "destaque" */
 .destaque {
-    font-weight: bold;
-    color: #007acc;
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: #007acc; /* Define a cor do texto */
 }
 
 /* Seletor de ID: Estilize o elemento com o ID "cabecalho" */
 #cabecalho {
-    background-color: #f0f0f0;
-    text-align: center;
+    background-color: #f0f0f0; /* Define a cor de fundo */
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
 /* Seletor de tipo: Estilize todos os cabeçalhos h1 */
 h1 {
-    font-size: 24px;
+    font-size: 24px; /* Define o tamanho da fonte */
 }
 
 /* Seletor de filho: Estilize os parágrafos dentro de uma div */
 div p {
-    margin: 10px;
-    padding: 5px;
+    margin: 10px; /* Define a margem */
+    padding: 5px; /* Define o preenchimento */
 }
 
 /* Cores e Fundo */
 
 /* Cor de fundo usando o formato RGB */
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240); /* Define a cor de fundo do corpo */
 }
 
 /* Cor do texto usando o formato hexadecimal */
 h1 {
-    color: #007acc;
+    color: #007acc; /* Define a cor do texto do cabeçalho h1 */
 }
 
 
@@ -40,9 +40,9 @@ h1 {
 
 /* Margem, preenchimento e borda */
 .box {
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ddd;
+    margin: 10px; /* Define a margem de 10 pixels em todos os lados */
+    padding: 15px; /* Define o preenchimento de 15 pixels em todos os lados */
+    border: 1px solid #ddd; /* Define uma borda de 1 pixel sólida com cor #ddd */
 }
 
 /* Layout Responsivo */
@@ -56,47 +56,47 @@ h1 {
 
 /* Layout com Flexbox */
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Ativa o layout flexbox */
+    flex-direction: row; /* Define a direção das caixas como linha */
+    justify-content: space-between; /* Alinha os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
 }
 
 /* Transições e Animações */
 
 /* Transição de cor de fundo */
 .botao {
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* Adiciona uma transição de cor de fundo suave */
 }
 
 /* Animação de escala no hover */
 .botao:hover {
-    background-color: #45a049;
-    transform: scale(1.1);
-    opacity: 0.8;
+    background-color: #45a049; /* Muda a cor de fundo no hover */
+    transform: scale(1.1); /* Aumenta a escala do elemento em 10% no hover */
+    opacity: 0.8; /* Define a opacidade como 80% no hover */
 }
 
 /* Tipografia */
 
 /* Tamanho da fonte e família de fontes */
 p {
-    font-size: 16px;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 16px; /* Define o tamanho da fonte do parágrafo */
+    font-family: 'Arial', sans-serif; /* Define a família de fontes */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
 }
 
 /* Pseudo-classes e Pseudo-elementos */
 
 /* Estilizando um link no hover */
 a:hover {
-    text-decoration: underline;
-    color: #003366;
+    text-decoration: underline; /* Adiciona uma linha de sublinhado no hover */
+    color: #003366; /* Muda a cor do texto do link no hover */
 }
 
 /* Adicionando um elemento antes do conteúdo */
 p::before {
-    content: "➤";
+    content: "➤"; /* Adiciona um caractere de seta antes do conteúdo do parágrafo */
 }
 
 /* Arquitetura CSS (BEM) */
@@ -108,13 +108,13 @@ p::before {
 
 .bloco__elemento {
     /* Estilos do elemento dentro do bloco */
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Define a cor de fundo do elemento dentro do bloco */
 }
 
 .bloco--modificador {
     /* Estilos do bloco com modificador */
-    border: 2px dashed #007acc;
-    padding: 10px;
+    border: 2px dashed #007acc; /* Define uma borda pontilhada de 2 pixels com cor #007acc */
+    padding: 10px; /* Define o preenchimento de 10 pixels */
 }
 
 /* Boas Práticas e Comentários */
@@ -122,76 +122,75 @@ p::before {
 /* Use nomes de classe descritivos e significativos */
 .botao-principal {
     /* Estilos aqui */
-    margin: 0;
+    margin: 0; /* Define a margem como 0 */
 }
 
 /* Gradientes e Sombras */
 
 /* Gradiente radial */
 .radial-gradient-box {
-    background: radial-gradient(circle, #007acc, #003366);
+    background: radial-gradient(circle, #007acc, #003366); /* Cria um plano de fundo com gradiente radial */
 }
 
 /* Sombras avançadas */
 .advanced-shadow-box {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2),
-        -10px -10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra avançada */
 }
 
 /* Transições 3D */
 .transition-3d-box {
-    transform: perspective(1000px) rotateY(30deg);
-    transition: transform 0.5s ease-in-out;
+    transform: perspective(1000px) rotateY(30deg); /* Aplica uma transformação 3D */
+    transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave */
 }
 
 .transition-3d-box:hover {
-    transform: perspective(1000px) rotateY(-30deg);
+    transform: perspective(1000px) rotateY(-30deg); /* Muda a transformação no hover */
 }
 
 /* Animações CSS */
 @keyframes slide-in {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-100%); /* Inicia a animação com o elemento fora da tela */
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateX(0); /* Conclui a animação com o elemento na posição original */
     }
 }
 
 .slide-in-box {
-    animation: slide-in 1s;
+    animation: slide-in 1s; /* Aplica a animação "slide-in" com duração de 1 segundo */
 }
 
 /* Flexbox Avançado */
 .advanced-flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: flex; /* Ativa o layout flexbox */
+    justify-content: space-between; /* Alinha os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    flex-wrap: wrap; /* Permite que os itens flexíveis sejam quebrados em várias linhas */
 }
 
 .advanced-flex-item {
-    flex: 1;
+    flex: 1; /* Define a flexibilidade dos itens */
 }
 
 /* Máscaras CSS */
 .masked-box {
-    mask-image: radial-gradient(circle, transparent 20%, black 70%);
+    mask-image: radial-gradient(circle, transparent 20%, black 70%); /* Cria uma máscara com gradiente radial, tornando parte do elemento transparente e parte preta */
 }
 
-/* Filtros CSS */
+/*Filtros CSS*/ 
 .filtered-image {
-    filter: grayscale(50%) brightness(150%);
+filter: grayscale(50%) brightness(150%); /* Aplica filtros de escala de cinza e aumento de brilho na imagem */
 }
 
-/* Variáveis CSS (Custom Properties) */
+/*Variáveis CSS (Custom Properties)*/ 
 :root {
-    --cor-primaria: #007acc;
-    --fonte-padrao: 'Arial', sans-serif;
+--cor-primaria: #007acc; /* Define uma variável CSS para a cor primária */
+--fonte-padrao: 'Arial', sans-serif; /* Define uma variável CSS para a família de fontes padrão */
 }
 
 .body {
-    color: var(--cor-primaria);
-    font-family: var(--fonte-padrao);
+color: var(--cor-primaria); /* Usa a variável CSS para definir a cor do texto */
+font-family: var(--fonte-padrao); /* Usa a variável CSS para definir a família de fontes */
 }
