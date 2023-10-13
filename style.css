@@ -1,0 +1,195 @@
+/* Exemplos CSS3 Avançados */
+
+/* Seletores CSS */
+
+/* Seletor de classe */
+.classe {
+    /* Estilos aqui */
+}
+
+/* Seletor de ID */
+#id {
+    /* Estilos aqui */
+}
+
+/* Seletor de tipo */
+h1 {
+    /* Estilos aqui */
+}
+
+/* Seletor de filho */
+div p {
+    /* Estilos aqui */
+}
+
+/* Cores e Fundo */
+
+/* Cor de fundo usando o formato RGB */
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Cor do texto usando o formato hexadecimal */
+h1 {
+    color: #007acc;
+}
+
+/* Box Model */
+
+/* Margem, preenchimento e borda */
+.box {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Layout Responsivo */
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    /* Estilos para telas menores aqui */
+}
+
+/* Flexbox */
+
+/* Layout com Flexbox */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Transições e Animações */
+
+/* Transição de cor de fundo */
+.botao {
+    transition: background-color 0.3s ease;
+}
+
+/* Animação de escala no hover */
+.botao:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Tipografia */
+
+/* Tamanho da fonte e família de fontes */
+p {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Pseudo-classes e Pseudo-elementos */
+
+/* Estilizando um link no hover */
+a:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+/* Adicionando um elemento antes do conteúdo */
+p::before {
+    content: "➤";
+}
+
+/* Arquitetura CSS (BEM) */
+
+/* Convenção BEM */
+.bloco {
+    /* Estilos do bloco */
+}
+
+.bloco__elemento {
+    /* Estilos do elemento dentro do bloco */
+    background-color: #f0f0f0;
+}
+
+.bloco--modificador {
+    /* Estilos do bloco com modificador */
+    border: 2px dashed #007acc;
+    padding: 10px;
+}
+
+/* Boas Práticas e Comentários */
+
+/* Use nomes de classe descritivos e significativos */
+.botao-principal {
+    /* Estilos aqui */
+    margin: 0;
+}
+
+/* Gradientes e Sombras */
+
+/* Gradiente radial */
+.radial-gradient-box {
+    background: radial-gradient(circle, #007acc, #003366);
+}
+
+/* Sombras avançadas */
+.advanced-shadow-box {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2),
+        -10px -10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Transições 3D */
+.transition-3d-box {
+    transform: perspective(1000px) rotateY(30deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.transition-3d-box:hover {
+    transform: perspective(1000px) rotateY(-30deg);
+}
+
+/* Animações CSS */
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in-box {
+    animation: slide-in 1s;
+}
+
+/* Flexbox Avançado */
+.advanced-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.advanced-flex-item {
+    flex: 1;
+}
+
+/* Máscaras CSS */
+.masked-box {
+    mask-image: radial-gradient(circle, transparent 20%, black 70%);
+}
+
+/* Filtros CSS */
+.filtered-image {
+    filter: grayscale(50%) brightness(150%);
+}
+
+/* Variáveis CSS (Custom Properties) */
+:root {
+    --cor-primaria: #007acc;
+    --fonte-padrao: 'Arial', sans-serif;
+}
+
+.body {
+    color: var(--cor-primaria);
+    font-family: var(--fonte-padrao);
+}
